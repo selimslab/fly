@@ -1,0 +1,32 @@
+INFO: 2021-11-16 02:05:12,322: plotting 8 target updates.. 
+INFO: 2021-11-16 02:05:50,370: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:05:50,372: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:05:55,790: plotting 12 target updates.. 
+INFO: 2021-11-16 02:08:03,657: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:08:03,659: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:08:07,212: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:08:07,213: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:08:18,706: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:08:18,707: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:08:21,069: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:08:21,070: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:08:21,897: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:08:21,898: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:10:46,372: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:10:46,373: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:10:48,519: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:10:48,520: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:10:52,483: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:10:52,483: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:12:02,752: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:12:02,753: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:12:04,583: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:12:04,584: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:12:10,170: plotting 213 target updates.. 
+INFO: 2021-11-16 02:14:38,020: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:14:38,021: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:14:39,362: plotting 0 target updates.. 
+ERROR: 2021-11-16 02:14:39,363: error plotting targets: Could not interpret value `latitude` for parameter `x` 
+INFO: 2021-11-16 02:14:40,004: plotting 79 target updates.. 
+INFO: 2021-11-16 02:20:10,102: plotting 2399 target updates.. 
+INFO: 2021-11-16 02:20:44,151: plotting 693 target updates.. 
