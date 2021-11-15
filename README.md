@@ -2,17 +2,17 @@
 
 ## Requirements
 
-python>3.8
+python3.8+ 
 
-pip3 
-
-requests
-
-pytest 
+the rest is in pyproject.toml
 
 ## Setup 
 
-assuming you have a UNIX-like system with python3.8+ installed 
+please make sure you have python3.8+ 
+
+run 
+
+`bash ./setup.sh` 
 
 This script installs pip package manager
 
@@ -20,7 +20,7 @@ Creates a virtual env folder .venv
 
 Installs project dependencies 
 
-`bash ./setup.sh` 
+
 
 ## Activate virtual env 
 
@@ -30,11 +30,13 @@ If your virtual env is not auto-activated, please run
 
 ## Run 
 
-This will start a repl 
+Start a repl 
 
 `python airforce/main.py`
 
 commands  
+
+`help`  
 
 `stats` : view latest stats
 
