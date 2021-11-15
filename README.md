@@ -15,7 +15,9 @@ pytest
 assuming you have a UNIX-like system with python3.8+ installed 
 
 This script installs pip package manager
+
 Creates a virtual env folder .venv 
+
 Installs project dependencies 
 
 `bash ./setup.sh` 
@@ -35,4 +37,5 @@ This will start a repl
 commands  
 
 `stats` : view latest stats
+
 `plot`  : plot targets seen 
