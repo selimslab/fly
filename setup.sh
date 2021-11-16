@@ -5,3 +5,5 @@ pip3 install poetry
 source .venv/bin/activate
 
 poetry install 
+
+poetry shell 

@@ -3,3 +3,4 @@
 .env 
 .python-version
 logs/
+dist/

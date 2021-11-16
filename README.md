@@ -6,33 +6,42 @@ python3.8+
 
 the rest is in pyproject.toml
 
-## Setup 
-
 please make sure you have python3.8+ 
+
+## Setup 
 
 run 
 
 `bash ./setup.sh` 
 
-This script installs pip package manager
 
-Creates a virtual env folder .venv 
+This script will 
 
-Installs project dependencies 
+install pip package manager
+
+Create a virtual env folder .venv 
+
+Install project dependencies 
 
 
+## If your virtual env is not auto-activated 
 
-## Activate virtual env 
+please run
 
-If your virtual env is not auto-activated, please run
+ `poetry shell`
+
+ or
 
  `source .venv/bin/activate`
 
 ## Run 
 
-Start a repl 
+run 
 
-`python airforce/main.py`
+`python tests/test_airforce.py`
+
+
+this will start a repl 
 
 commands  
 
