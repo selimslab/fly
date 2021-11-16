@@ -23,10 +23,6 @@ def repl(monitor: TrackingStreamMonitor):
     }
     commands["help"]()
     while True:
-        try:
-            command = input("airforce > ")
-            if command in commands:
-                commands[command]()
-        except KeyboardInterrupt:
-            print("bye!")
-            return
+        command = input("airforce > ")
+        if command in commands:
+            commands[command]()

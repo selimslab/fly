@@ -19,7 +19,6 @@ class TrackingStreamClient:
 
     def stream_generator(self, api_url):
         headers = {"Authorization": f"Bearer {self.api_auth_token}"}
-        print(self.api_url)
         try:
             with requests.get(self.api_url, stream=True, headers=headers) as r:
                 if r.encoding is None:

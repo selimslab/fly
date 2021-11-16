@@ -8,6 +8,8 @@ the rest is in pyproject.toml
 
 please make sure you have python3.8+ 
 
+tested with 3.8.4
+
 ## Setup 
 
 run 
@@ -50,3 +52,7 @@ commands
 `stats` : view latest stats
 
 `plot`  : plot targets seen 
+
+
+`ctrl + z` to exit 
+

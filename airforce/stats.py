@@ -53,6 +53,7 @@ class TargetStats:
 
     def __str__(self):
         return f"""
+        
 Number of aircrafts in sample: {self.number_of_aircraft_in_sample}
 
 Aircraft with max number of target updates ({self.max_number_of_target_updates}): {self.aircraft_with_max_number_of_target_updates}

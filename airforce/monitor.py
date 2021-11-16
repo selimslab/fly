@@ -1,7 +1,7 @@
 from .api import TrackingStreamClient, tracking_stream_api_client
 from .plotter import TargetPlotter
 from .stats import TargetStats
-
+from .util.logger import logger 
 
 class TrackingStreamMonitor:
     stats = TargetStats()
@@ -16,7 +16,7 @@ class TrackingStreamMonitor:
                 self.stats.add_target(target_json)
 
     def print_stats(self):
-        print(self.stats)
+        logger.info(self.stats)
 
     def plot(self):
         self.plotter.plot_targets(self.stats.targets_seen)
