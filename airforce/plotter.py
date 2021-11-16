@@ -35,6 +35,11 @@ class TargetPlotter(Plotter):
         sns.set_style("darkgrid")
 
     def plot_targets(self, df: pd.DataFrame):
+
+        if len(df) == 0:
+            logger.info("no targets to plot")
+            return
+
         logger.info(f"plotting {len(df)} target updates..")
 
         try:

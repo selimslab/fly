@@ -3,8 +3,6 @@ import os
 import sys
 from logging.handlers import TimedRotatingFileHandler
 
-logging.basicConfig(level=logging.INFO)
-
 
 def get_plain_text_formatter() -> logging.Formatter:
     return logging.Formatter("""%(levelname)s: %(asctime)s: %(message)s """)
@@ -37,6 +35,8 @@ def create_rotating_handler(level: int, filename: str) -> TimedRotatingFileHandl
 def create_logger(name: str) -> logging.Logger:
     logger = logging.getLogger(name)
 
+    logger.setLevel(logging.DEBUG)
+
     logs_dir = "logs"
     os.makedirs(logs_dir, exist_ok=True)
 
@@ -51,4 +51,4 @@ def create_logger(name: str) -> logging.Logger:
     return logger
 
 
-logger = create_logger("b0")
+logger = create_logger("root")
